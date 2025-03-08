@@ -47,7 +47,7 @@ const Checkout = () => {
           totalAmount,
         },
         {
-          headers: { Authorization: `Bearer ${token}` }, // ✅ Send token
+          headers: { Authorization: `Bearer ${token}` }, 
         }
       );
 
